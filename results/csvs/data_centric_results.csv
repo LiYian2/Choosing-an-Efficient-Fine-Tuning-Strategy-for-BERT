@@ -1,0 +1,3 @@
+Method,Accuracy,F1 Score,Shot Size
+Data Centric (Centric DS),0.8807,0.8803,998
+Data Centric (Random DS),0.8658,0.8657,1000

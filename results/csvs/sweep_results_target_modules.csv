@@ -1,0 +1,7 @@
+Method,VRAM Mode,Seed,r,Learning Rate,Shot Size,Freeze Layers,Trainable %,Peak VRAM,Accuracy,F1 Score,BS Mean Acc,BS Mean F1,BS F1 CI (Low),BS F1 CI (High),Training Time (s),Time per Epoch (s),Target Modules
+"LoRA Sweep - Target Modules=['query', 'key', 'value']",BF16,6657,16,0.0001,67349,0,0.4038%,3123.6298828125,0.9117,0.9116,-1.0000,-1.0000,-1.0000,-1.0000,305.2,101.7,"['query', 'key', 'value']"
+"LoRA Sweep - Target Modules=['query', 'key', 'value', 'attention.output.dense']",BF16,6657,16,0.0001,67349,0,0.5372%,3501.2705078125,0.9106,0.9105,-1.0000,-1.0000,-1.0000,-1.0000,325.4,108.5,"['query', 'key', 'value', 'attention.output.dense']"
+"LoRA Sweep - Target Modules=['intermediate.dense', 'output.dense']",BF16,6657,16,0.0001,67349,0,0.8030%,4328.5810546875,0.9140,0.9139,-1.0000,-1.0000,-1.0000,-1.0000,426.1,142.0,"['intermediate.dense', 'output.dense']"
+"LoRA Sweep - Target Modules=['query', 'key', 'value', 'attention.output.dense', 'intermediate.dense', 'output.dense']",BF16,6657,16,0.0001,67349,0,1.1990%,5500.7294921875,0.9128,0.9128,-1.0000,-1.0000,-1.0000,-1.0000,515.8,171.9,"['query', 'key', 'value', 'attention.output.dense', 'intermediate.dense', 'output.dense']"
+LoRA Sweep - Target Modules=['value'],BF16,6657,16,0.0001,67349,0,0.1359%,2381.2314453125,0.8956,0.8956,-1.0000,-1.0000,-1.0000,-1.0000,237.0,79.0,['value']
+LoRA Sweep - Target Modules=['query'],BF16,6657,16,0.0001,67349,0,0.1359%,2381.6416015625,0.8899,0.8898,-1.0000,-1.0000,-1.0000,-1.0000,237.6,79.2,['query']

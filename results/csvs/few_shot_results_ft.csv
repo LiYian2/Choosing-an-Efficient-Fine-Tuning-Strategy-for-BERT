@@ -1,0 +1,34 @@
+Method,Shot Size,Seed,Learning Rate,Accuracy,F1 Score,Batch Size
+Zero-Shot Evaluation,0,42,N/A,0.5092,0.4382,
+Zero-Shot Evaluation,0,6657,N/A,0.5092,0.3374,
+Zero-Shot Evaluation,0,2025,N/A,0.5080,0.3430,
+Few-Shot (k=10) - Full Finetune (FP16) - Seed 42_fewshot_10,10,42,5e-05,0.5103,0.4368,4.0
+Few-Shot (k=10) - Full Finetune (FP16) - Seed 6657_fewshot_10,10,6657,5e-05,0.5092,0.3374,4.0
+Few-Shot (k=10) - Full Finetune (FP16) - Seed 2025_fewshot_10,10,2025,5e-05,0.5069,0.3425,4.0
+Few-Shot (k=50) - Full Finetune (FP16) - Seed 42_fewshot_50,50,42,5e-05,0.5814,0.5449,4.0
+Few-Shot (k=50) - Full Finetune (FP16) - Seed 6657_fewshot_50,50,6657,5e-05,0.5172,0.3686,4.0
+Few-Shot (k=50) - Full Finetune (FP16) - Seed 2025_fewshot_50,50,2025,5e-05,0.6147,0.6131,4.0
+Few-Shot (k=100) - Full Finetune (FP16) - Seed 42_fewshot_100,100,42,5e-05,0.7076,0.7074,4.0
+Few-Shot (k=100) - Full Finetune (FP16) - Seed 6657_fewshot_100,100,6657,5e-05,0.7833,0.7823,4.0
+Few-Shot (k=100) - Full Finetune (FP16) - Seed 2025_fewshot_100,100,2025,5e-05,0.7064,0.6989,4.0
+Few-Shot (k=200) - Full Finetune (FP16) - Seed 42_fewshot_200,200,42,5e-05,0.8085,0.8064,4.0
+Few-Shot (k=200) - Full Finetune (FP16) - Seed 6657_fewshot_200,200,6657,5e-05,0.8475,0.8458,4.0
+Few-Shot (k=200) - Full Finetune (FP16) - Seed 2025_fewshot_200,200,2025,5e-05,0.8486,0.8479,4.0
+Few-Shot (k=500) - Full Finetune (FP16) - Seed 42_fewshot_500,500,42,5e-05,0.8773,0.8772,4.0
+Few-Shot (k=500) - Full Finetune (FP16) - Seed 6657_fewshot_500,500,6657,5e-05,0.8486,0.8482,4.0
+Few-Shot (k=500) - Full Finetune (FP16) - Seed 2025_fewshot_500,500,2025,5e-05,0.8716,0.8715,4.0
+Few-Shot (k=1000) - Full Finetune (FP16) - Seed 42_fewshot_1000,1000,42,5e-05,0.8842,0.8842,16.0
+Few-Shot (k=1000) - Full Finetune (FP16) - Seed 6657_fewshot_1000,1000,6657,5e-05,0.8521,0.8501,16.0
+Few-Shot (k=1000) - Full Finetune (FP16) - Seed 2025_fewshot_1000,1000,2025,5e-05,0.8658,0.8658,16.0
+Few-Shot (k=2000) - Full Finetune (FP16) - Seed 42_fewshot_2000,2000,42,5e-05,0.8658,0.8656,16.0
+Few-Shot (k=2000) - Full Finetune (FP16) - Seed 6657_fewshot_2000,2000,6657,5e-05,0.8773,0.8773,16.0
+Few-Shot (k=2000) - Full Finetune (FP16) - Seed 2025_fewshot_2000,2000,2025,5e-05,0.8956,0.8956,16.0
+Few-Shot (k=5000) - Full Finetune (FP16) - Seed 42_fewshot_5000,5000,42,5e-05,0.9060,0.9059,16.0
+Few-Shot (k=5000) - Full Finetune (FP16) - Seed 6657_fewshot_5000,5000,6657,5e-05,0.9002,0.9002,16.0
+Few-Shot (k=5000) - Full Finetune (FP16) - Seed 2025_fewshot_5000,5000,2025,5e-05,0.8991,0.8991,16.0
+Few-Shot (k=10000) - Full Finetune (FP16) - Seed 42_fewshot_10000,10000,42,5e-05,0.9117,0.9117,16.0
+Few-Shot (k=10000) - Full Finetune (FP16) - Seed 6657_fewshot_10000,10000,6657,5e-05,0.9186,0.9186,16.0
+Few-Shot (k=10000) - Full Finetune (FP16) - Seed 2025_fewshot_10000,10000,2025,5e-05,0.9117,0.9117,16.0
+Few-Shot (k=67349) - Full Finetune (FP16) - Seed 42_fewshot_67349,67349,42,5e-05,0.8979,0.8979,16.0
+Few-Shot (k=67349) - Full Finetune (FP16) - Seed 6657_fewshot_67349,67349,6657,5e-05,0.8968,0.8965,16.0
+Few-Shot (k=67349) - Full Finetune (FP16) - Seed 2025_fewshot_67349,67349,2025,5e-05,0.9106,0.9105,16.0
